@@ -1,32 +1,62 @@
-.content {
-  color: #444;
-  margin: 0 auto;
-  width: 900px;
-}
+body {
 
-fieldset {
-  border: none;
-}
-
-h1 {
-  color: #444;
-}
-
-h3 {
-  text-decoration: underline;
-}
-
-header {
-  h1 {
-    text-align: center;
+  .content {
+    margin: 0 auto;
+    padding: 0 35px;
   }
-}
 
-main {
-  
-}
+  fieldset {
+    border: none;
+  }
 
-footer {
-  text-align: center;
-  width: 100%;
+  h1 {
+
+  }
+
+  h3 {
+
+  }
+
+  header {
+    h1 {
+      text-align: center;
+    }
+  }
+
+  main {
+
+  }
+
+  footer {
+    text-align: center;
+    width: 100%;
+  }
+
+  .agent {
+    .name, .brokerage {
+      text-align: center;
+      font-weight: bold;
+    }
+    .name {
+      font-size: larger;
+    }
+    .portrait {
+      img {
+        border-radius: 50%;
+      }
+    }
+    .stats {
+      .price-stats, .type-stats {
+        b {
+          float: left;
+        }
+        ul {
+          list-style-type: none;
+          columns: 3;
+        }
+      }
+    }
+  }
+
+
 }

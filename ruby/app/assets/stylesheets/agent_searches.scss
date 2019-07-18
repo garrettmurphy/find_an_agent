@@ -10,6 +10,11 @@ main {
     overflow: auto;
     padding: 10px;
 
+    .agent-name {
+      font-weight: bold;
+      font-size: larger;
+    }
+
     .pi {
       float: left;
       width: 150px;
