@@ -31,3 +31,5 @@ Growth Candidates:
   6.) Format the layout of the agent card so that it is more understandable
   7.) Add filtering (if you didn't do 4 above) or sorting (if you did do 4 above) to the agent result page that re-orders the agents (maybe the following options buyers (sort/filter by agents that represented more buyers), sellers (reverse of buyers), SFH (agents that do mostly sfh first), Condo (agents that do mostly condos first), luxury (agents that do a lot of $1m+ transactions)
 
+Notes:
+I was very unclear if the goal of this exercise was to test CSS knowledge, to see how well I can modify Rails templates, or for me to redo the entire interface in React. Since I was short on time, I elected to only modify the styling of the pages. If it is desired for me to redo the interface in React, please advise.
